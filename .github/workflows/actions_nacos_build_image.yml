@@ -103,11 +103,11 @@ jobs:
           echo '=====开始构建镜像====='
           echo '=====开始构建vue_mogu_admin====='
           cd vue_mogu_admin
-          docker build -t registry.cn-shenzhen.aliyuncs.com/mogublog/vue_mogu_admin .
+          docker build -t registry.cn-shenzhen.aliyuncs.com/gangblog/vue_mogu_admin .
           cd ..
 
           cd vue_mogu_web
-          docker build -t registry.cn-shenzhen.aliyuncs.com/mogublog/vue_mogu_web .
+          docker build -t registry.cn-shenzhen.aliyuncs.com/gangblog/vue_mogu_web .
           cd ..
 
           echo '=====镜像构建结束====='
@@ -124,34 +124,34 @@ jobs:
         run: |
           echo '=====开始上传镜像====='
           echo '=====开始上传mogu_admin====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_admin
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_admin
 
           echo '=====开始上传mogu_gateway====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_gateway
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_gateway
 
           echo '=====开始上传mogu_monitor====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_monitor
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_monitor
 
           echo '=====开始上传mogu_picture====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_picture
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_picture
 
           echo '=====开始上传mogu_search====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_search
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_search
 
           echo '=====开始上传mogu_sms====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_sms
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_sms
 
           echo '=====开始上传mogu_spider====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_spider
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_spider
 
           echo '=====开始上传mogu_web====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_web
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/mogu_web
 
           echo '=====开始上传vue_mogu_admin====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/vue_mogu_admin
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/vue_mogu_admin
 
           echo '=====开始上传vue_mogu_web====='
-          docker push registry.cn-shenzhen.aliyuncs.com/mogublog/vue_mogu_web
+          docker push registry.cn-shenzhen.aliyuncs.com/gangblog/vue_mogu_web
 
           echo '=====镜像上传结束====='
 
