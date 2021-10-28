@@ -9,8 +9,8 @@ name: Master-Build-Docker-Images
 on:
   push:
     branches:
- #     - Nacos
-       - main
+      - Nacos
+   #    - main
 
 jobs:
   push:
