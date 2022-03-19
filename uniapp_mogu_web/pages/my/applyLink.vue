@@ -30,7 +30,11 @@
 		<view class="box">
 			<view class="cu-bar">
 				<view class="action border-title">
+<<<<<<< HEAD
 					<text class="text-xl text-bold text-blue">蘑菇博客</text>
+=======
+					<text class="text-xl text-bold text-blue">刚刚好</text>
+>>>>>>> 64a8ebf (update sth.)
 					<text class="bg-gradual-blue" style="width:3rem"></text>
 				</view>
 			</view>

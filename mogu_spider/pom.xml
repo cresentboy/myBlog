@@ -125,7 +125,11 @@
                 <version>1.2.0</version>
                 <configuration>
                     <!-- 注意imageName一定要是符合正则[a-z0-9-_.]的，否则构建不会成功 -->
+<<<<<<< HEAD
                     <imageName>registry.cn-shenzhen.aliyuncs.com/gangblog/${project.artifactId}</imageName>
+=======
+                    <imageName>registry.cn-shenzhen.aliyuncs.com/mogublog/${project.artifactId}</imageName>
+>>>>>>> 64a8ebf (update sth.)
                     <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
                     <rm>true</rm>
                     <resources>

@@ -78,7 +78,11 @@
 			  console.log(res.target)
 			}
 			return {
+<<<<<<< HEAD
 			  title: '蘑菇博客',
+=======
+			  title: '刚刚好',
+>>>>>>> 64a8ebf (update sth.)
 			  path: '/pages/index/index?PageCur=blogHome'
 			}
 		},

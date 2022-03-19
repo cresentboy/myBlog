@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
     "name" : "陌溪教你学编程",
     "appid" : "__UNI__CFAB3C1",
     "description" : "蘑菇博客 - 专注于技术分享的博客平台",
     "versionName" : "蘑菇博客V0.1",
+=======
+    "name" : "刚刚好",
+    "appid" : "__UNI__CFAB3C1",
+    "description" : "刚刚好 - 专注于技术分享的博客平台",
+    "versionName" : "刚刚好V0.1",
+>>>>>>> 64a8ebf (update sth.)
     "versionCode" : 1,
     "transformPx" : false,
     "app-plus" : {
@@ -56,7 +63,11 @@
     "quickapp" : {},
     /* 快应用特有相关 */
     "mp-weixin" : {
+<<<<<<< HEAD
         "appid" : "wx9b12b3c32bc8fee0",
+=======
+        "appid" : "wxfa5777bb4d371a89",
+>>>>>>> 64a8ebf (update sth.)
         "setting" : {
             "urlCheck" : false,
             "es6" : true
@@ -67,6 +78,10 @@
         "domain" : "uniapp.moguit.cn"
     },
     "mp-qq" : {
+<<<<<<< HEAD
         "appid" : "1110769790"
+=======
+        "appid" : "1112148074"
+>>>>>>> 64a8ebf (update sth.)
     }
 }

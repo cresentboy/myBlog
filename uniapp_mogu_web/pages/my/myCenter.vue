@@ -29,7 +29,11 @@
 				<input placeholder="请输入用户昵称" v-model="userInfo.nickName"></input>
 			</view>
 			
+<<<<<<< HEAD
 			<radio-group class="block solid-bottom" @change="genderChange">
+=======
+			<!-- <radio-group class="block solid-bottom" @change="genderChange">
+>>>>>>> 64a8ebf (update sth.)
 				<view class="cu-form-group">
 					<view class="title">性别</view>
 					<view>
@@ -37,7 +41,11 @@
 						<radio class='red margin-left-sm' :class="userInfo.gender=='0'?'checked':''" :checked="userInfo.gender=='0'?true:false" value="0"></radio> <text class="margin-left-sm">女</text>
 					</view>
 				</view>
+<<<<<<< HEAD
 			</radio-group>
+=======
+			</radio-group> -->
+>>>>>>> 64a8ebf (update sth.)
 			
 			<radio-group class="block solid-bottom" @change="RadioChange">
 				<view class="cu-form-group">
@@ -54,6 +62,7 @@
 				<input placeholder="请输入邮箱" v-model="userInfo.email"></input>
 			</view>
 			
+<<<<<<< HEAD
 			<view class="cu-form-group ">
 				<view class="title">QQ号</view>
 				<input placeholder="请输入QQ" v-model="userInfo.qqNumber"></input>
@@ -63,6 +72,17 @@
 				<view class="title">职业</view>
 				<input placeholder="请输入职业" v-model="userInfo.occupation"></input>
 			</view>
+=======
+			<!-- <view class="cu-form-group ">
+				<view class="title">QQ号</view>
+				<input placeholder="请输入QQ" v-model="userInfo.qqNumber"></input>
+			</view> -->
+			
+			<!-- <view class="cu-form-group ">
+				<view class="title">职业</view>
+				<input placeholder="请输入职业" v-model="userInfo.occupation"></input>
+			</view> -->
+>>>>>>> 64a8ebf (update sth.)
 			
 			<view class="cu-form-group align-start">
 				<view class="title">个人简介</view>

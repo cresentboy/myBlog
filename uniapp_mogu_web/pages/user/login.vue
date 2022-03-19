@@ -6,7 +6,11 @@
 		<view class="UCenter-bg">
 			<image src="/static/logo.png" class="png" mode="widthFix" @tap="goLogin"></image>
 			<view class="text-xl" style="margin-top: 5px;">
+<<<<<<< HEAD
 				蘑菇博客
+=======
+				刚刚好
+>>>>>>> 64a8ebf (update sth.)
 			</view>
 			<image src="../../static/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
 		</view>
@@ -24,9 +28,15 @@
 
 			<button class="cu-btn block bg-green margin-sm lg" @click="login"> 提交 </button>
 			<button class="cu-btn block bg-grey margin-sm lg" @click="goRegister"> 注册 </button>
+<<<<<<< HEAD
 			<button class="cu-btn block bg-blue margin-sm lg" open-type="getUserInfo" @getuserinfo="getUserInfo"> QQ登录 <text
 				 style="font-weight: bold;">【推荐】</text> </button>
 
+=======
+			<!-- <button class="cu-btn block bg-blue margin-sm lg" open-type="getUserInfo" @getuserinfo="getUserInfo"> QQ登录 <text
+				 style="font-weight: bold;">【推荐】</text> </button>
+ -->
+>>>>>>> 64a8ebf (update sth.)
 		</form>
 	</view>
 </template>

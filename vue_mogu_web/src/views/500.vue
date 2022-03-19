@@ -1,8 +1,12 @@
 <template>
   <div class="errPage-container">
+<<<<<<< HEAD
     <el-button @click="back" icon="arrow-left" class="pan-back-btn"
       >返回</el-button
     >
+=======
+    <el-button @click="back" icon='arrow-left' class="pan-back-btn">返回</el-button>
+>>>>>>> 64a8ebf (update sth.)
     <el-row>
       <el-col :span="12">
         <h1 class="text-jumbo text-ginormous">Oops!</h1>
@@ -13,6 +17,7 @@
           <li class="link-type">
             <router-link to="/">回首页</router-link>
           </li>
+<<<<<<< HEAD
           <!-- <li class="link-type"><a href="https://gitee.com/moxi159753/mogu_blog_v2">蘑菇博客源码</a></li>
           <li class="link-type"><a href="http://moxi159753.gitee.io/mogu_blog_doc">蘑菇博客文档</a></li>
           <li class="link-type"><a href="https://gitee.com/moxi159753/LearningNotes">学习笔记</a></li> -->
@@ -32,6 +37,20 @@
     </el-row>
     <el-dialog title="随便看" :visible.sync="dialogVisible">
       <img class="pan-img" :src="ewizardClap" />
+=======
+           <li class="link-type"><a href="https://gitee.com/the_present/myblog">博客源码Gitee</a></li>
+          <li class="link-type"><a href="https://github.com/cresentboy/myBlog">博客源码Github</a></li>
+          <li class="link-type"><a href="http://doc.gangblog.xyz/#/">学习笔记</a></li>
+          <li><a @click.prevent="dialogVisible=true" href="#">点我看图</a></li>
+        </ul>
+      </el-col>
+      <el-col :span="12">
+        <img :src="errGif" width="313" height="428" alt="Girl has dropped her ice cream.">
+      </el-col>
+    </el-row>
+    <el-dialog title="随便看" :visible.sync="dialogVisible">
+      <img class="pan-img" :src="ewizardClap">
+>>>>>>> 64a8ebf (update sth.)
     </el-dialog>
   </div>
 </template>
@@ -46,7 +65,11 @@ export default {
       errGif: errGif + "?" + +new Date(),
       ewizardClap:
         "https://wpimg.wallstcn.com/007ef517-bafd-4066-aae4-6883632d9646",
+<<<<<<< HEAD
       dialogVisible: false,
+=======
+      dialogVisible: false
+>>>>>>> 64a8ebf (update sth.)
     };
   },
   methods: {
@@ -56,8 +79,13 @@ export default {
       } else {
         this.$router.go(-1);
       }
+<<<<<<< HEAD
     },
   },
+=======
+    }
+  }
+>>>>>>> 64a8ebf (update sth.)
 };
 </script>
 

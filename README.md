@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 刚刚好的博客
 
 ## 项目介绍
@@ -7,6 +8,17 @@
 ## 运行配置
 
 本博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
+=======
+
+## 项目介绍
+
+本项目一个**基于微服务架构的前后端分离博客系统**。**Web** 端使用 **Vue** + **ElementUi** , 移动端使用 **uniapp** 和 **ColorUI**。后端使用 **SpringCloud** + **SpringBoot** + **Mybatis-plus**进行开发，使用 **Jwt** + **SpringSecurity** 做登录验证和权限校验，使用 **ElasticSearch** 和 **Solr** 作为全文检索服务，使用 **Github Actions**完成博客的持续集成，使用 **ElasticStack** 收集博客日志，文件支持**上传本地**、**七牛云** 和 **Minio**.
+
+
+## 运行配置
+
+蘑菇博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
+>>>>>>> 64a8ebf (update sth.)
 
 `nacos`，`nginx`，`rabbitmq`， `redis`，`mysql`，`mogu-gateway`，`mogu-sms`，`mogu-picture`， `mogu-web`, `mogu-admin`
 
@@ -30,10 +42,25 @@
 - 采用自研的评论模块，实现评论邮件通知
 - 采用 **Nacos** 作为服务发现和配置中心，轻松完成项目的配置的维护
 - 采用 **Sentinel** 流量控制框架，通过配置再也不怕网站被爆破
+<<<<<<< HEAD
 - 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成博客的移动端门户页面搭建
 - 支持多种文本编辑器，**Markdown** 编辑器([Vditor](https://github.com/Vanessa219/vditor))和富文本编辑器([CKEditor](https://github.com/ckeditor/ckeditor4))随心切换
 - 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】进行日志收集
 - 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持一键部署线上环境
+=======
+- 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成蘑菇博客的移动端门户页面搭建
+- 支持多种文本编辑器，**Markdown** 编辑器([Vditor](https://github.com/Vanessa219/vditor))和富文本编辑器([CKEditor](https://github.com/ckeditor/ckeditor4))随心切换
+- 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】[搭建蘑菇博客日志收集](http://moguit.cn/#/info?blogOid=436)
+- 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持[一键部署线上环境](http://www.moguit.cn/#/info?blogOid=565)
+
+
+## 项目地址
+
+目前项目托管在 **Gitee** 和 **Github** 平台上中，欢迎大家 **Star** 和 **Fork** 支持~
+
+- Gitee地址：https://gitee.com/the_present/myblog
+- Github地址：https://github.com/cresentboy/myblog
+>>>>>>> 64a8ebf (update sth.)
 
 ## 项目目录
 
@@ -44,10 +71,14 @@
 - mogu_picture： 图片服务，用于图片上传和下载；
 - mogu_sms：消息服务，用于更新ElasticSearch、Solr索引、邮件和短信发送
 - mogu_monitor：监控服务，集成SpringBootAdmin用于管理和监控SpringBoot应用程序
+<<<<<<< HEAD
 - mogu_spider：爬虫服务`（目前还未完善）`
 - mogu_gateway：网关服务`（目前还未完善）`
 - mogu_zipkin：链路追踪服务，`目前使用java -jar的方式启动`
 - mogu_search：搜索服务，ElasticSearch和Solr作为全文检索工具，支持可插拔配置，默认使用SQL搜索
+=======
+- mogu_search：搜索服务，ElasticSearch和Solr作为全文检索工具，[支持可插拔配置](http://moguit.cn/#/info?blogUid=4042b4f4088e4e37e95d9fc75d97298b)，默认使用SQL搜索
+>>>>>>> 64a8ebf (update sth.)
 - mogu_commons：公共模块，主要用于存放Entity实体类、Feign远程调用接口、以及公共config配置
 - mogu_utils: 是常用工具类；
 - mogu_xo: 是存放 VO、Service，Dao层的
@@ -56,7 +87,13 @@
 - vue_mogu_admin：VUE的后台管理页面
 - vue_mogu_web：VUE的门户网站
 - uniapp_mogu_web：基于uniapp 和 colorUi 的蘑菇博客移动端门户页面（Nacos分支）
+<<<<<<< HEAD
 - nuxt_mogu_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化
+=======
+- nuxt_mogu_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化`（目前还未完善）`
+
+## 技术选型
+>>>>>>> 64a8ebf (update sth.)
 
 ### 后端技术
 
@@ -119,7 +156,11 @@
 |       showdown        | 用Javascript编写的Markdown 到Html转换器 |            https://github.com/showdownjs/showdown            |
 |       turndown        | 用JavaScript编写的HTML到Markdown转换器  |           https://github.com/domchristie/turndown            |
 
+<<<<<<< HEAD
 
+=======
+## 快速开始
+>>>>>>> 64a8ebf (update sth.)
 
 ## 环境搭建
 
@@ -152,3 +193,36 @@
 |    Zipkin     | 2.12.5 | https://search.maven.org/remote_content?g=io.zipkin.java&a=zipkin-server&v=LATEST&c=exec |
 |     Nacos     | 1.3.2  |          https://github.com/alibaba/nacos/releases           |
 |   Sentinel    | 1.7.2  |         https://github.com/alibaba/Sentinel/releases         |
+<<<<<<< HEAD
+=======
+
+
+
+## 网站截图
+
+|                        Admin端                         |                                                       |
+| :----------------------------------------------------: | :---------------------------------------------------: |
+|      ![image text](./doc/images/admin/login.png)       |    ![image text](./doc/images/admin/dashboard.png)    |
+|       ![image text](./doc/images/admin/blog.png)       |    ![image text](./doc/images/admin/blogEdit.png)     |
+|    ![image text](./doc/images/admin/addPicture.png)    |    ![image text](./doc/images/admin/blogSort.png)     |
+|     ![image text](./doc/images/admin/blogTag.png)      |  ![image text](./doc/images/admin/blogRecommend.png)  |
+|     ![image text](./doc/images/admin/blogLink.png)     |   ![image text](./doc/images/admin/systemConf.png)    |
+|     ![image text](./doc/images/admin/aboutMe.png)      |      ![image text](./doc/images/admin/user.png)       |
+|     ![image text](./doc/images/admin/comment.png)      |     ![image text](./doc/images/admin/webConf.png)     |
+|      ![image text](./doc/images/admin/admin.png)       |  ![image text](./doc/images/admin/categoryMenu.png)   |
+|                                                        |                                                       |
+|      ![image text](./doc/images/admin/sysLog.png)      |    ![image text](./doc/images/admin/exception.png)    |
+|      ![image text](./doc/images/admin/visit.png)       |     ![image text](./doc/images/admin/picture.png)     |
+|     ![image text](./doc/images/admin/swagger.png)      |   ![image text](./doc/images/admin/pictureSort.png)   |
+|                                                        |                                                       |
+|   ![image text](./doc/images/admin/monitor_solr.png)   | ![image text](./doc/images/admin/monitor_eureka.png)  |
+|  ![image text](./doc/images/admin/monitor_druid.png)   |  ![image text](./doc/images/admin/monitor_admin.png)  |
+|  ![image text](./doc/images/admin/monitor_zipkin.png)  | ![image text](./doc/images/admin/monitor_elastic.png) |
+| ![image text](./doc/images/admin/monitor_rabbitmq.png) |                                                       |
+|                       **Web端**                        |                                                       |
+|       ![image text](./doc/images/web/index.png)        |      ![image text](./doc/images/web/index2.png)       |
+|       ![image text](./doc/images/web/index2.png)       |      ![image text](./doc/images/web/content.png)      |
+|       ![image text](./doc/images/web/login.png)        |       ![image text](./doc/images/web/about.png)       |
+|        ![image text](./doc/images/web/sort.png)        |     ![image text](./doc/images/web/classify.png)      |
+|        ![image text](./doc/images/web/time.png)        |    ![image text](./doc/images/web/messageBox.png)     |
+>>>>>>> 64a8ebf (update sth.)

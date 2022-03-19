@@ -299,9 +299,15 @@
     font-size: 16px;
     text-align: justify;
   }
+<<<<<<< HEAD
   .el-pagination {
     white-space: "";
   }
+=======
+ /* .el-pagination {
+    white-space: "";
+  }*/
+>>>>>>> 64a8ebf (update sth.)
   .message_infos {
     width: 100%;
     /*min-height: 500px;*/

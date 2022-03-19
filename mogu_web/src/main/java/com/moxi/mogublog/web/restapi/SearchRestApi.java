@@ -91,10 +91,18 @@ public class SearchRestApi {
         return ResultUtil.result(SysConf.SUCCESS, blogService.searchBlogByAuthor(author, currentPage, pageSize));
     }
 
+<<<<<<< HEAD
     @ApiOperation(value = "获取搜索模式", notes = "获取搜索模式", response = String.class)
     @GetMapping(value = "/getSearchModel")
     public String getSearchModel() {
         return ResultUtil.successWithData(systemConfigService.getSearchModel());
     }
+=======
+   /* @ApiOperation(value = "获取搜索模式", notes = "获取搜索模式", response = String.class)
+    @GetMapping(value = "/getSearchModel")
+    public String getSearchModel() {
+        return ResultUtil.successWithData(systemConfigService.getSearchModel());
+    }*/
+>>>>>>> 64a8ebf (update sth.)
 
 }
