@@ -18,7 +18,6 @@
 ## 运行配置
 
 博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
->>>>>>> 64a8ebf (update sth.)
 
 `nacos`，`nginx`，`rabbitmq`， `redis`，`mysql`，`mogu-gateway`，`mogu-sms`，`mogu-picture`， `mogu-web`, `mogu-admin`
 
@@ -60,7 +59,7 @@
 
 - Gitee地址：https://gitee.com/the_present/myblog
 - Github地址：https://github.com/cresentboy/myblog
->>>>>>> 64a8ebf (update sth.)
+
 
 ## 项目目录
 
@@ -78,7 +77,7 @@
 - mogu_search：搜索服务，ElasticSearch和Solr作为全文检索工具，支持可插拔配置，默认使用SQL搜索
 =======
 - mogu_search：搜索服务，ElasticSearch和Solr作为全文检索工具，[支持可插拔配置](http://moguit.cn/#/info?blogUid=4042b4f4088e4e37e95d9fc75d97298b)，默认使用SQL搜索
->>>>>>> 64a8ebf (update sth.)
+
 - mogu_commons：公共模块，主要用于存放Entity实体类、Feign远程调用接口、以及公共config配置
 - mogu_utils: 是常用工具类；
 - mogu_xo: 是存放 VO、Service，Dao层的
@@ -93,7 +92,7 @@
 - nuxt_mogu_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化`（目前还未完善）`
 
 ## 技术选型
->>>>>>> 64a8ebf (update sth.)
+
 
 ### 后端技术
 
@@ -160,7 +159,7 @@
 
 =======
 ## 快速开始
->>>>>>> 64a8ebf (update sth.)
+
 
 ## 环境搭建
 
@@ -225,4 +224,4 @@
 |       ![image text](./doc/images/web/login.png)        |       ![image text](./doc/images/web/about.png)       |
 |        ![image text](./doc/images/web/sort.png)        |     ![image text](./doc/images/web/classify.png)      |
 |        ![image text](./doc/images/web/time.png)        |    ![image text](./doc/images/web/messageBox.png)     |
->>>>>>> 64a8ebf (update sth.)
+
