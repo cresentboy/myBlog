@@ -186,29 +186,14 @@
 
 ## 网站截图
 
-|                        Admin端                         |                                                       |
-| :----------------------------------------------------: | :---------------------------------------------------: |
-|      ![image text](./doc/images/admin/login.png)       |    ![image text](./doc/images/admin/dashboard.png)    |
-|       ![image text](./doc/images/admin/blog.png)       |    ![image text](./doc/images/admin/blogEdit.png)     |
-|    ![image text](./doc/images/admin/addPicture.png)    |    ![image text](./doc/images/admin/blogSort.png)     |
-|     ![image text](./doc/images/admin/blogTag.png)      |  ![image text](./doc/images/admin/blogRecommend.png)  |
-|     ![image text](./doc/images/admin/blogLink.png)     |   ![image text](./doc/images/admin/systemConf.png)    |
-|     ![image text](./doc/images/admin/aboutMe.png)      |      ![image text](./doc/images/admin/user.png)       |
-|     ![image text](./doc/images/admin/comment.png)      |     ![image text](./doc/images/admin/webConf.png)     |
-|      ![image text](./doc/images/admin/admin.png)       |  ![image text](./doc/images/admin/categoryMenu.png)   |
-|                                                        |                                                       |
-|      ![image text](./doc/images/admin/sysLog.png)      |    ![image text](./doc/images/admin/exception.png)    |
-|      ![image text](./doc/images/admin/visit.png)       |     ![image text](./doc/images/admin/picture.png)     |
-|     ![image text](./doc/images/admin/swagger.png)      |   ![image text](./doc/images/admin/pictureSort.png)   |
-|                                                        |                                                       |
-|   ![image text](./doc/images/admin/monitor_solr.png)   | ![image text](./doc/images/admin/monitor_eureka.png)  |
-|  ![image text](./doc/images/admin/monitor_druid.png)   |  ![image text](./doc/images/admin/monitor_admin.png)  |
-|  ![image text](./doc/images/admin/monitor_zipkin.png)  | ![image text](./doc/images/admin/monitor_elastic.png) |
-| ![image text](./doc/images/admin/monitor_rabbitmq.png) |                                                       |
-|                       **Web端**                        |                                                       |
-|       ![image text](./doc/images/web/index.png)        |      ![image text](./doc/images/web/index2.png)       |
-|       ![image text](./doc/images/web/index2.png)       |      ![image text](./doc/images/web/content.png)      |
-|       ![image text](./doc/images/web/login.png)        |       ![image text](./doc/images/web/about.png)       |
-|        ![image text](./doc/images/web/sort.png)        |     ![image text](./doc/images/web/classify.png)      |
-|        ![image text](./doc/images/web/time.png)        |    ![image text](./doc/images/web/messageBox.png)     |
-
+|                 Admin端                 |                                         |
+| :-------------------------------------: | :-------------------------------------: |
+| ![image text](./doc/images/admin/1.png) | ![image text](./doc/images/admin/2.png) |
+| ![image text](./doc/images/admin/3.png) | ![image text](./doc/images/admin/4.png) |
+| ![image text](./doc/images/admin/5.png) | ![image text](./doc/images/admin/6.png) |
+| ![image text](./doc/images/admin/7.png) |                                         |
+|                                         |                                         |
+|                **Web端**                |                                         |
+|  ![image text](./doc/images/web/1.png)  |  ![image text](./doc/images/web/2.png)  |
+|  ![image text](./doc/images/web/3.png)  |  ![image text](./doc/images/web/4.png)  |
+|  ![image text](./doc/images/web/5.png)  |                                         |
