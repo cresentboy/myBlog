@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * 文件上传接口 【总的文件接口，需要调用本地文件、七牛云、Minio上传服务】
  *
- * @author 陌溪
+ * @author
  * @date 2020年10月21日15:32:03
  */
 @RestController
