@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Swagger配置类
  *
- * @author 陌溪
+ * @author
  * @date 2020年12月4日22:50:09
  */
 @Slf4j
