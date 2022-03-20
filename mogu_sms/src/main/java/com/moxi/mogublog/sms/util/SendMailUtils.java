@@ -12,8 +12,8 @@ import javax.mail.internet.MimeMessage;
 /**
  * 邮件发送工具类
  *
- * @author 陌溪
- * @date 2018年10月20日下午3:18:25
+ * @author
+ * @date 2019年10月20日下午3:18:25
  */
 @Slf4j
 @Component
