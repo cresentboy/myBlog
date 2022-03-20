@@ -17,7 +17,7 @@
 
 ## 运行配置
 
-蘑菇博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
+博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
 >>>>>>> 64a8ebf (update sth.)
 
 `nacos`，`nginx`，`rabbitmq`， `redis`，`mysql`，`mogu-gateway`，`mogu-sms`，`mogu-picture`， `mogu-web`, `mogu-admin`
@@ -33,7 +33,7 @@
 - 引入**RabbitMQ** 消息队列，用于邮件发送、更新 **Redis** 和 **Solr**
 - 引入**JustAuth** 第三方登录开源库，支持 **Gitee**、**Github** 账号登录。
 - 引入**ElasticSearch** 和 **Solr** 作为全文检索服务，并支持可插拔配置
-- 引入**Github Actions** 工作流，完成蘑菇博客的持续集成、持续部署。
+- 引入**Github Actions** 工作流，完成博客的持续集成、持续部署。
 - 引入七牛云对象存储，同时支持本地文件存储
 - 引入 **RBAC** 权限管理设计，灵活的权限控制，按钮级别的细粒度权限控制，满足绝大部分的权限需求
 - 引入 **Zipkin** 链路追踪，聚合各业务系统调用延迟数据，可以一眼看出延迟高的服务
@@ -48,10 +48,10 @@
 - 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】进行日志收集
 - 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持一键部署线上环境
 =======
-- 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成蘑菇博客的移动端门户页面搭建
+- 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成博客的移动端门户页面搭建
 - 支持多种文本编辑器，**Markdown** 编辑器([Vditor](https://github.com/Vanessa219/vditor))和富文本编辑器([CKEditor](https://github.com/ckeditor/ckeditor4))随心切换
-- 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】[搭建蘑菇博客日志收集](http://moguit.cn/#/info?blogOid=436)
-- 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持[一键部署线上环境](http://www.moguit.cn/#/info?blogOid=565)
+- 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】[搭建博客日志收集]
+- 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持[一键部署线上环境]
 
 
 ## 项目地址
@@ -83,10 +83,10 @@
 - mogu_utils: 是常用工具类；
 - mogu_xo: 是存放 VO、Service，Dao层的
 - mogu_base: 是一些Base基类
-- doc: 是蘑菇博客的一些文档和数据库文件
+- doc: 是博客的一些文档和数据库文件
 - vue_mogu_admin：VUE的后台管理页面
 - vue_mogu_web：VUE的门户网站
-- uniapp_mogu_web：基于uniapp 和 colorUi 的蘑菇博客移动端门户页面（Nacos分支）
+- uniapp_mogu_web：基于uniapp 和 colorUi 的博客移动端门户页面（Nacos分支）
 <<<<<<< HEAD
 - nuxt_mogu_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化
 =======
