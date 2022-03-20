@@ -23,8 +23,8 @@ import java.util.List;
 /**
  * 管理员表 RestApi
  *
- * @author 陌溪
- * @date 2018-09-04
+ * @author
+ * @date 2019-09-04
  */
 @RestController
 @RequestMapping("/admin")
