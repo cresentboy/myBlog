@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 刚刚好的博客
 
 ## 项目介绍
@@ -8,7 +8,6 @@
 ## 运行配置
 
 本博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
-=======
 
 ## 项目介绍
 
@@ -41,12 +40,10 @@
 - 采用自研的评论模块，实现评论邮件通知
 - 采用 **Nacos** 作为服务发现和配置中心，轻松完成项目的配置的维护
 - 采用 **Sentinel** 流量控制框架，通过配置再也不怕网站被爆破
-<<<<<<< HEAD
 - 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成博客的移动端门户页面搭建
 - 支持多种文本编辑器，**Markdown** 编辑器([Vditor](https://github.com/Vanessa219/vditor))和富文本编辑器([CKEditor](https://github.com/ckeditor/ckeditor4))随心切换
 - 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】进行日志收集
 - 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持一键部署线上环境
-=======
 - 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成博客的移动端门户页面搭建
 - 支持多种文本编辑器，**Markdown** 编辑器([Vditor](https://github.com/Vanessa219/vditor))和富文本编辑器([CKEditor](https://github.com/ckeditor/ckeditor4))随心切换
 - 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】[搭建博客日志收集]
@@ -70,14 +67,11 @@
 - mogu_picture： 图片服务，用于图片上传和下载；
 - mogu_sms：消息服务，用于更新ElasticSearch、Solr索引、邮件和短信发送
 - mogu_monitor：监控服务，集成SpringBootAdmin用于管理和监控SpringBoot应用程序
-<<<<<<< HEAD
 - mogu_spider：爬虫服务`（目前还未完善）`
 - mogu_gateway：网关服务`（目前还未完善）`
 - mogu_zipkin：链路追踪服务，`目前使用java -jar的方式启动`
 - mogu_search：搜索服务，ElasticSearch和Solr作为全文检索工具，支持可插拔配置，默认使用SQL搜索
-=======
 - mogu_search：搜索服务，ElasticSearch和Solr作为全文检索工具，[支持可插拔配置](http://moguit.cn/#/info?blogUid=4042b4f4088e4e37e95d9fc75d97298b)，默认使用SQL搜索
-
 - mogu_commons：公共模块，主要用于存放Entity实体类、Feign远程调用接口、以及公共config配置
 - mogu_utils: 是常用工具类；
 - mogu_xo: 是存放 VO、Service，Dao层的
@@ -86,9 +80,7 @@
 - vue_mogu_admin：VUE的后台管理页面
 - vue_mogu_web：VUE的门户网站
 - uniapp_mogu_web：基于uniapp 和 colorUi 的博客移动端门户页面（Nacos分支）
-<<<<<<< HEAD
 - nuxt_mogu_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化
-=======
 - nuxt_mogu_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化`（目前还未完善）`
 
 ## 技术选型
@@ -155,9 +147,6 @@
 |       showdown        | 用Javascript编写的Markdown 到Html转换器 |            https://github.com/showdownjs/showdown            |
 |       turndown        | 用JavaScript编写的HTML到Markdown转换器  |           https://github.com/domchristie/turndown            |
 
-<<<<<<< HEAD
-
-=======
 ## 快速开始
 
 
@@ -192,8 +181,6 @@
 |    Zipkin     | 2.12.5 | https://search.maven.org/remote_content?g=io.zipkin.java&a=zipkin-server&v=LATEST&c=exec |
 |     Nacos     | 1.3.2  |          https://github.com/alibaba/nacos/releases           |
 |   Sentinel    | 1.7.2  |         https://github.com/alibaba/Sentinel/releases         |
-<<<<<<< HEAD
-=======
 
 
 
