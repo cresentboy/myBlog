@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.enums;
 /**
  * 社交账号类型枚举类
  *
- * @Author: 陌溪
+ * @Author:
  * @Date: 2020年2月12日11:59:04
  */
 public enum EAccountType {

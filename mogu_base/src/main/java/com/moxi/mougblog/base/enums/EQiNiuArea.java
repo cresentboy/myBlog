@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.enums;
 /**
  * 七牛云存储空间枚举类
  *
- * @Author: 陌溪
+ * @Author:
  * @Date: 2020年1月23日09:18:00
  */
 public enum EQiNiuArea {

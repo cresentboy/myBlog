@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.enums;
 /**
  * 评论来源枚举类
  *
- * @Author: 陌溪
+ * @Author:
  * @Date: 2020年1月20日13:16:33
  */
 public enum ECommentSource {

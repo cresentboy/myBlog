@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.enums;
 /**
  * 搜索模式枚举类
  *
- * @author 陌溪
+ * @author
  * @date 2020年3月14日09:22:46
  */
 public class ESearchModel {

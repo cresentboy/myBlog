@@ -16,7 +16,7 @@ import java.util.Date;
 /**
  * Entity基类
  *
- * @author 陌溪
+ * @author
  * @date 2018年9月17日09:47:12
  */
 @Data
