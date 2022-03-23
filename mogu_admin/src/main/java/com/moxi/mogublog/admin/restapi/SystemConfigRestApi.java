@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 系统配置表 RestApi
  *
- * @author 陌溪
+ * @author
  * @date 2020年1月21日09:24:37
  */
 @Api(value = "系统配置相关接口", tags = {"系统配置相关接口"})

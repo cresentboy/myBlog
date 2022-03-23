@@ -19,7 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
  * SpringSecurity配置文件
  * 用于配置哪些请求被拦截，哪些请求可以匿名访问
  *
- * @author 陌溪
+ * @author
  * @date 2020年9月19日10:05:40
  */
 @Configuration

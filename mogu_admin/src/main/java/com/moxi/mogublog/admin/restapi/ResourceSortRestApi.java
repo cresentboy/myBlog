@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * 资源分类表 RestApi
  *
- * @author 陌溪
+ * @author
  * @date 2020年1月9日19:23:28
  */
 @Api(value = "资源分类相关接口", tags = {"资源分类相关接口"})

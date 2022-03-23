@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 /**
  * SpringSecurity用户工厂类
  *
- * @author 陌溪
+ * @author
  * @date 2020年9月19日20:03:25
  */
 public final class SecurityUserFactory {

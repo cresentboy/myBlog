@@ -29,7 +29,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * JWT认证过滤器 【验证token有效性】
  *
- * @author 陌溪
+ * @author
  * @date 2020年9月19日10:05:40
  */
 @Slf4j

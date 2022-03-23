@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * 将SpringSecurity中的用户管理和数据库的管理员对应起来
  *
- * @author 陌溪
+ * @author
  * @date 2020/9/14 10:43
  */
 @Service

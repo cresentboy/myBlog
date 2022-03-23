@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * 字典数据 RestApi
  *
- * @author 陌溪
+ * @author
  * @date 2020年2月15日21:16:31
  */
 @RestController

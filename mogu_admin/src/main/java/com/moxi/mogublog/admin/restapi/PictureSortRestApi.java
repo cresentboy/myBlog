@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 图片分类表 RestApi
  *
- * @author 陌溪
+ * @author
  * @date 2018年9月17日16:37:13
  */
 @Api(value = "图片分类相关接口", tags = {"图片分类相关接口"})
