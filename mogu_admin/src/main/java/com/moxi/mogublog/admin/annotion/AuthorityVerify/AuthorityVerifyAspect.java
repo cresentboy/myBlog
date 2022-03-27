@@ -38,7 +38,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 权限校验 切面实现
  *
- * @author: 陌溪
+ * @author: Administrator
  * @create: 2020-03-06-19:05
  */
 @Aspect
