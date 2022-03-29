@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.exception.exceptionType;
 /**
  * 自定义业务异常
  *
- * @author 陌溪
+ * @author
  * @date 2019年12月4日22:47:32
  */
 public class BusinessException extends RuntimeException {

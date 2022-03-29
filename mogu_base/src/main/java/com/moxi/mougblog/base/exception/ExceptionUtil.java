@@ -8,7 +8,7 @@ import com.moxi.mougblog.base.vo.Result;
 /**
  * 异常工具类
  *
- * @Author: 陌溪
+ * @Author
  * @Date: 2019年12月4日22:47:08
  */
 public class ExceptionUtil {

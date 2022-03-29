@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * 自定义更新操作相关的异常
  *
- * @author 陌溪
+ * @author
  * @date 2020年9月9日16:41:40
  */
 public class UpdateException extends RuntimeException implements Serializable {
